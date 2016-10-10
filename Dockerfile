@@ -18,4 +18,4 @@ COPY    entrypoint.sh /
 RUN     chmod +x /entrypoint.sh
 WORKDIR /var/www/html
 EXPOSE  80
-CMD   /run.sh
+CMD   /entrypoint.sh
